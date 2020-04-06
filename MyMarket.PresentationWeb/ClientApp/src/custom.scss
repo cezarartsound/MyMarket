@@ -1,0 +1,31 @@
+@import './mixins';
+
+:root {
+    --spacer-XXS: 0.2rem;
+    --spacer-XS: 0.4rem;
+    --spacer-S: 1rem;
+    --spacer-M: 4rem;
+    --spacer-L: 8rem;
+}
+
+html {
+  font-size: 13px;
+
+  @include sm {
+    font-size: 16px;
+  }
+}
+
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
